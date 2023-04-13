@@ -14,9 +14,13 @@ main{
     color: white;
 }
 
+#navbarNav a:hover{
+    text-shadow: 2px 2px 5px white;
+}
+
 .hero {
     background-image: url("/img/wallpaperflare.com_wallpaper.jpg");
-    height: 94.8vh;
+    height: 95.5vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -51,4 +55,9 @@ main{
 }
 .cardArticulosIndex a:hover{
     color: rgb(190, 134, 30);
+}
+
+footer a{
+    color: #92CA01;
+    text-decoration: none;
 }
