@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
 }
 
 main{
@@ -10,4 +12,43 @@ main{
 
 #navbarNav a{
     color: white;
+}
+
+.hero {
+    background-image: url("/img/wallpaperflare.com_wallpaper.jpg");
+    height: 94.8vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tituloParrafo{
+    padding-top: 35vh;
+}
+
+.hero h1{
+    text-shadow: 2px 2px 10px black;
+}
+
+.hero p{
+    text-shadow: 2px 2px 10px black;
+}
+
+.hero button{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: black;
+}
+
+.articulos{
+    background-color: white;
+}
+
+.cardArticulosIndex a{
+    color: black;
+}
+.cardArticulosIndex a:hover{
+    color: rgb(190, 134, 30);
 }
