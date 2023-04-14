@@ -51,8 +51,8 @@ main{
 }
 
 
-.articulos{
-    background-color: white;
+main{
+    background-color: #EBEEF7;
 }
 
 #articulos button{
@@ -65,6 +65,16 @@ main{
     background-color: #92CA01;
     border-color: white;
     color: white;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.226);
+}
+
+.card:hover {
+    border: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.448);
 }
 
 .cardArticulosIndex a{
