@@ -47,7 +47,7 @@ main{
 }
 
 .hero button:hover {
-    box-shadow: 4px 2px 10px #ffffff;
+    box-shadow: 0px 0px 15px #ffffff;
 }
 
 
@@ -111,6 +111,28 @@ footer a{
 .buttonRegistrarse button:hover {
     background-color: #92CA01;
     box-shadow: 0px 0px 5px black;
+}
+
+/*ERROR 404*/
+
+#mainError404 {
+    background-image: url(/img/fondoError404.jpg);
+    height: 74vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#mainError404 p{
+    text-shadow: 2px 2px 2px black;
+}
+
+#mainError404 button {
+    border-radius: 15px;
+}
+
+#mainError404 button:hover{
+    background-color: rgba(0, 0, 0, 0.45);
 }
 
 
