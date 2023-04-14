@@ -88,3 +88,36 @@ footer a{
     color: #92CA01;
     text-decoration: none;
 }
+
+/*DETALLES*/
+
+.heroDetalles img{
+    height: 300px;
+}
+.contenidoArticulo h3 {
+    color: #92CA01;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.624);
+}
+
+.contenidoArticulo i{
+    color: rgb(222, 153, 27);
+    font-size: 10px;
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+
+
+    /*Page DETALLES*/
+    .heroDetalles img{
+        height: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /*Page DETALLES*/
+    .heroDetalles img{
+        height: 600px;
+    }
+}
