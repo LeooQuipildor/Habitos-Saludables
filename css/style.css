@@ -46,8 +46,25 @@ main{
     background-color: black;
 }
 
+.hero button:hover {
+    box-shadow: 4px 2px 10px #ffffff;
+}
+
+
 .articulos{
     background-color: white;
+}
+
+#articulos button{
+    background-color: #92CA01;
+    border-color: white;
+    color: black;
+}
+
+#articulos button:hover{
+    background-color: #92CA01;
+    border-color: white;
+    color: white;
 }
 
 .cardArticulosIndex a{
