@@ -34,3 +34,20 @@ function mostrarModal() {
   modal.show();
 }
 setTimeout(mostrarModal, 4000);
+
+
+let formulario = document.getElementById("formComentario");
+let mostrarComentarios = document.getElementById("mostrarComentarios");
+
+formulario.addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let nombre = document.getElementById("nombre").value;
+    let comentario = document.getElementById("comentario").value;
+    let nuevoComentario = document.createElement("li");
+    nuevoComentario.textContent = `${nombre}: ${comentario}`;
+
+    mostrarComentarios.appendChild(nuevoComentario);
+
+    formulario.reset();
+});
