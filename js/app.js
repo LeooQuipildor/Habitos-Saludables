@@ -29,3 +29,8 @@ document.addEventListener("keyup", function(e) {
   }
 });
 
+function mostrarModal() {
+  let modal = new bootstrap.Modal(document.getElementById("miModal"));
+  modal.show();
+}
+setTimeout(mostrarModal, 4000);
