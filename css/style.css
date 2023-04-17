@@ -89,6 +89,10 @@ footer a{
     text-decoration: none;
 }
 
+.filtro {
+    display: none;
+}
+
 /*DETALLES*/
 
 .heroDetalles img{
